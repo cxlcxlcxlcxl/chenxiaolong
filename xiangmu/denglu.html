@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/dengzhu.css" rel="stylesheet" />
+	</head>
+	<body>
+	<div id="loginOrRegister">
+		<div class="title">
+			<span class="login colorRed" >登录</span>
+			<a href="zhuce.html">注册</a>
+		</div>
+		<div id="formInformation">
+			<ul class="box box1">
+				<li>
+					<label for="account">账号</label>
+					<input type="text" placeholder="请输入您的账号（手机号）" class="account" id="account" />
+					<span class="error"></span>
+				</li>
+				<li>
+					<label for="password">密码</label>
+					<input type="password" class="password" id="password" placeholder="请输入密码" />
+					<span class="error"></span>
+				</li>
+				<li>
+					<label for="authCode">验证码</label>
+					<input type="text" class="sradd photokey" id="authCode" placeholder="请输入收到的验证码" />
+					<span class="add authCode"></span>
+					<span class="error"></span>
+				</li>
+			</ul>
+			<div class="submit">
+				<input type="submit" value="立即登录"  class="submit"/>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/jquery.2.2.4.js"></script>
+<script src="js/deng.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/dengzhu.css" rel="stylesheet" />
+	</head>
+	<body>
+	<div id="loginOrRegister">
+		<div class="title">
+			<span class="register" >免费注册</span>
+		</div>
+		<div id="formInformation">
+			<ul class="box box2">
+				<li>
+					<label for="phone">手机号</label>
+					<input type="text" placeholder="请输入您的手机号码" id="phone" maxlength="11" />
+					<span class="error"></span>
+				</li>
+				<li>
+					<label for="authCode2">验证码</label>
+					<input type="text" class="sradd phonekey" id="authCode2" placeholder="请输入收到的验证码" />
+					<span class="add sendaAuthCode">发送验证码</span>
+					<span class="error"></span>
+				</li>
+				<li>
+					<label for="password2">密码</label>
+					<input type="password" class="password" id="password2" placeholder="请输入密码" />
+					<span class="error"></span>
+				</li>
+				<li>
+					<label for="password3">确认密码</label>
+					<input type="password" class="email" id="password3" placeholder="请再次输入密码" />
+					<span class="error"></span>
+				</li>
+			</ul>
+			<div class="submit">
+				<input type="submit" value="立即注册"  class="submit"/>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/jquery.2.2.4.js"></script>
+<script src="js/zhu.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

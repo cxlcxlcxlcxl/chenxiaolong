@@ -1,0 +1,9 @@
+			p{margin:0;padding: 0;}
+			img{display: block;}
+			h2{margin:20px 0;text-align: center;}
+			.list{width: 1000px;border: solid 1px black;margin: 50px auto;overflow: hidden;}
+			.list .box{width: 250px;float: left;border: solid 1px black;box-sizing: border-box;margin:0 auto;}
+			.list .box img{padding:0 70px;}
+			.list .box p{font-size: 14px;line-height: 20px;height: 40px;overflow: hidden;}
+			.list span{display:block;text-align: center;line-height:24px;}
+            .list em{display: block;width:100px;line-height:26px;margin: 10px auto;font-style: normal;background: greenyellow;border-radius: 6px;text-align: center}
